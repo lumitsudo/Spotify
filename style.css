@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav img {
+    width: 8rem;
+}
+
+i {
+    width: 0.5rem;
+    padding-right: 25%;
+}
+
+.main {
+    margin-left: 6%;
+}
+
+.playlists {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 8%;
+}
+
+.playlists img {
+    width: 80%;
+}
+
+#pl1, #pl2, #pl3, #pl4 {
+    margin-left: 3%;
+}
+
+li, a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
