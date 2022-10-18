@@ -22,7 +22,7 @@ nav img {
 nav {
     padding-top: 20px;
     background-color: black;
-    padding-right: 4%;
+    padding-right: 6%;
 }
 i {
     width: 2rem;
@@ -43,6 +43,7 @@ ul, a:hover {
 
 ol {
     padding-top: 2rem;
+    padding-left: 2rem;
     margin-left: 4%;
     background-color: #0D0D0D;
 }
@@ -50,4 +51,42 @@ ol {
 ol li {
     margin-bottom: 2rem;
 
+}
+
+.reproduzir {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.reproduzir img {
+    width: 4.5rem;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.capa {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.capa img {
+    width: 20%;
+    margin: 1.5rem;
+}
+
+.titulo {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+h1 {
+    font-size: 4rem;
 }
