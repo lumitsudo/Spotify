@@ -21,8 +21,6 @@ nav img {
 }
 nav {
     padding-top: 20px;
-    background-color: black;
-    padding-right: 6%;
 }
 i {
     width: 34px;
@@ -60,6 +58,9 @@ ol li {
 
 .reproduzir img {
     width: 4.5rem;
+}
+.reproduzir a:hover {   
+    opacity: 0.5;
 }
 
 .reproduzir a:hover {   
