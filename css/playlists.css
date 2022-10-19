@@ -21,12 +21,9 @@ nav img {
 }
 nav {
     padding-top: 20px;
-    background-color: black;
-    padding-right: 6%;
 }
 i {
-    width: 2rem;
-    padding-right: 22%;
+    width:  34px;   
 }
 
 ul, a {
@@ -61,6 +58,9 @@ ol li {
 
 .reproduzir img {
     width: 4.5rem;
+}
+.reproduzir a:hover {   
+    opacity: 0.5;
 }
 
 .main {
