@@ -23,15 +23,14 @@ nav {
     padding-top: 20px;
 }
 i {
-    width: 2rem;
-    padding-right: 25%;
+    width: 34px;
     
 }
 
 .main {
     margin-left: 6%;
     background: linear-gradient(to top, #0D0D0D 0%, #121212 100%);
-    padding: 15px;;
+    padding: 15px;
 }
 
 h3{

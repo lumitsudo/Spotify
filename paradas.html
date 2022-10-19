@@ -35,7 +35,7 @@
             </div>
 
             <div class="reproduzir">
-                <a href="#"><img src="img/play_button.png" alt="Play"></a>
+                <img src="img/play_button.png" alt="Play" id="icon">
                 <a href="#"><img src="img/like_button.png" alt="Like"></a>
                 <a href="#"><img src="img/maisopcoes_button.png" alt="Mais opções"></a>
             </div>
@@ -50,6 +50,25 @@
             </ol>
             </div>
         </div>
-            
+           
+        <audio controls id="songs">
+            <source src="music/musica1.mp3" type="audio/mp3">
+        </audio>
+
+        <script>
+            var songs = document.getElementById("songs")
+            var icon = document.getElementById("icon")
+
+            icon.onclick = function() {
+                if(songs.paused){
+                    songs.play();
+                    icon.src="img/pause_button.png";
+                }else{
+                    songs.pause();
+                    icon.src="img/play_button.png"
+                }
+            }
+        </script>
+
     </body>
 </html>
