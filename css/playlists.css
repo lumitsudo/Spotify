@@ -1,14 +1,9 @@
 * {
     margin: 0;
-    padding-left: 3px;
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
-
+    padding: 0;
 }
-html,body {
-    height: 100%;
-}
-
 body {
     background-color:#0D0D0D;;
     color: white;
@@ -19,21 +14,30 @@ body {
 
 nav img {
     width: 8rem;
+    position: relative;
+    left: 30px;
 }
 nav {
-    padding-right: 6%;
     padding-top: 20px;
-    background-color: black;
 }
 i {
     width: 34px;
 }
 
-ul, a {
+ul a {
     text-decoration: none;
     list-style: none;
     color: white;
-    padding-top: 10px;
+    position: relative;
+    left: 35px;
+}
+ul {
+    padding-top: 15px;
+}
+a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
 }
 
 ul, a:hover {
@@ -65,11 +69,6 @@ ol li {
 .reproduzir a:hover {   
     opacity: 0.5;
 }
-
-.reproduzir a:hover {   
-    opacity: 0.5;
-}
-
 .main {
     display: flex;
     flex-direction: column;
