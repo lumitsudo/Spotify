@@ -22,8 +22,9 @@ fetch('https://accounts.spotify.com/api/token', authOptions)
 // o fetch é assíncrono e demora para retornar a variável accessToken preenchida
 setTimeout(() => {
     console.log('>>> accessToken', accessToken);
-    var song = 
-        fetch('https://api.spotify.com/v1/artists/7FNnA9vBm6EKceENgCGRMb', {
+
+    var music = 
+        fetch('https://api.spotify.com/v1/tracks/0LW6YoAboQtyz2uKaZirV0?si=39c8d72d26a748d7', {
         headers: {
             'Content-Type': 'application/json',
             'Authorization': `Bearer ${accessToken}`
@@ -34,17 +35,7 @@ setTimeout(() => {
             console.log(data)
             accessToken = data.access_token 
         })
-    var icon = document.getElementById("icon")
 
-    icon.onclick = function() {
-        if(song.paused){
-            song.play();
-            icon.src="img/pause_button.png";
-        }else{
-            song.pause();
-            icon.src="img/play_button.png"
-        }
-    }
+        console.log(music)
 
 }, 2000)
-

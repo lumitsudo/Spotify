@@ -13,14 +13,17 @@ body {
     background-color:#0D0D0D;;
     color: white;
     display: flex;
-    flex-direction: row;  
+    flex-direction: row;
+    justify-content: space-between;  
 }
 
 nav img {
     width: 8rem;
 }
 nav {
+    padding-right: 6%;
     padding-top: 20px;
+    background-color: black;
 }
 i {
     width: 34px;
@@ -98,4 +101,21 @@ h1 {
 
 audio {
     margin-top: 45%;
+}
+
+.login{
+    padding: 10px;
+    background-color:#1db954;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    width: auto;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.login:hover{
+    background-color: #1ed760 ;
 }
