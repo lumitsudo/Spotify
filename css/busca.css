@@ -83,11 +83,24 @@ h2 {
 input{
     padding-top: 0.7rem;
     width: 13rem;
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
 }
 
 button i{
     width: 1.5rem;
     color: black;
+    padding-top: 3px;
+}
+.btnbuscar{
+    position: absolute;
+    left: 435px;
+    top: 15px;
+}
+.btnbuscar button{
+    height: 37px;
 }
 
 .login{
@@ -104,5 +117,21 @@ button i{
     top: 10px;
 }
 .login:hover{
+    background-color: #1ed760 ;
+}
+.cadastro{
+    padding: 10px;
+    background-color:#1db954;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    width: auto;
+    position: absolute;
+    right: 80px;
+    top: 10px;
+}
+.cadastro:hover{
     background-color: #1ed760 ;
 }

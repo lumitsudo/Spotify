@@ -69,6 +69,22 @@ ul, a:hover {
 .login:hover{
     background-color: #1ed760 ;
 }
+.cadastro{
+    padding: 10px;
+    background-color:#1db954;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    width: auto;
+    position: absolute;
+    right: 80px;
+    top: 10px;
+}
+.cadastro:hover{
+    background-color: #1ed760 ;
+}
 
 .capa img {
     width: 30%;
@@ -101,7 +117,6 @@ h1 {
 .reproduzir img {
     width: 4.5rem;
 }
-
 ol {
     padding-top: 2rem;
     padding-left: 2rem;
