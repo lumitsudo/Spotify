@@ -30,6 +30,28 @@ i {
     width: 34px;
 }
 
+.add_heart{
+    padding-top: 40px;
+}
+.add_heart i{
+    font-size: 23px;
+    padding-right: 10px;
+}
+.add_heart li{
+    padding-bottom: 15px;
+}
+.cookies_privacidade{
+    position:absolute;
+    bottom: 50px;
+    font-size: 11px;
+    left: 40px;
+}
+.cookies_privacidade p{
+    padding-top: 10px;
+}
+.cookies_privacidade a:hover{
+    text-decoration: underline;
+}
 .main {
     margin-left: 6%;
     background: linear-gradient(to top, #0D0D0D 0%, #121212 100%);
