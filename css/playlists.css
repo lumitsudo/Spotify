@@ -146,6 +146,11 @@ h1 {
     transform: scale(1.1);
     transition: 0ms;
 }
+
+#icon1 {
+    width: 2rem;
+}
+
 ol {
     padding-top: 2rem;
     padding-left: 2rem;
@@ -245,6 +250,8 @@ i:hover{
     display: flex;
     gap: 1em;
 }
+
+
 .progress-controller{
     width: 100%;
     display: flex;
