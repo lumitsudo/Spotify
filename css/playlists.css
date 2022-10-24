@@ -36,8 +36,8 @@ i {
     padding-bottom: 15px;
 }
 .cookies_privacidade{
-    position:absolute;
-    bottom: 50px;
+    position:fixed;
+    bottom: 130px;
     font-size: 11px;
     left: 40px;
 }
