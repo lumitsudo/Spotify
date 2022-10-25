@@ -94,7 +94,7 @@ a {
     color: white;
 }
 ul, a:hover {
-    color: gray;
+    color: #1ed760;
     transition: 350ms linear;
 }
 
